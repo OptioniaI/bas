@@ -1,4 +1,3 @@
-workspace:FindFirstChild('Structure').KillPart.KillPart:Destroy()
 local p = workspace.Structure.Baseplate:Clone()
 p.Name = 'Underground'
 p.BrickColor = BrickColor.Random()
