@@ -5,5 +5,5 @@ p.BrickColor = BrickColor.Random()
 p.Parent = workspace
 p.CanCollide = true
 p.Anchored = true
-p.Size = Vector3.new(math.huge, p.Size.Y, math.huge)
+p.Size = Vector3.new(2048, 10.5, 2048)
 p.CFrame = workspace.Structure.Baseplate.CFrame * CFrame.new(0, -3.5, 0)
