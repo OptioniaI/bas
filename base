@@ -1,0 +1,9 @@
+workspace:FindFirstChild('Structure').KillPart.KillPart:Destroy()
+local p = workspace.Structure.Baseplate:Clone()
+p.Name = 'Underground'
+p.BrickColor = BrickColor.Random()
+p.Parent = workspace
+p.CanCollide = true
+p.Anchored = true
+p.Size = Vector3.new(math.huge, p.Size.Y, math.huge)
+p.CFrame = workspace.Structure.Baseplate.CFrame * CFrame.new(0, -3.5, 0)
